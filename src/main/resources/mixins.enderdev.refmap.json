@@ -1,0 +1,9 @@
+{
+  "data": {
+    "shift": "INTERMEDIARY",
+    "client": "INTERMEDIARY",
+    "default": "INTERMEDIARY",
+    "server": "INTERMEDIARY"
+  },
+  "mappings": {}
+}

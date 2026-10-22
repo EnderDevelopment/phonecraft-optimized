@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enderdev",
+  "version": "${version}",
+  "name": "EnderDev",
+  "description": "A Minecraft mod for Fabric",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/EnderDevelopment/enderdev"
+  },
+  "license": "MIT",
+  "icon": "assets/enderdev/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.enderdev.EnderDev"
+    ]
+  },
+  "mixins": [
+    "enderdev.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric-api": "*",
+    "minecraft": "1.20.4"
+  }
+}

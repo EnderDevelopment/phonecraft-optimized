@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.enderdev.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "plugin": "com.example.enderdev.mixin.EnderDevMixinPlugin",
+  "refmap": "mixins.enderdev.refmap.json"
+}
